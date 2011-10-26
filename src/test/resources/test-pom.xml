@@ -1,0 +1,16 @@
+<project>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.dasberg.maven.plugins</groupId>
+                <artifactId>maven-closure-compiler-plugin</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+                <configuration>
+                    <js_dir>src/test/process</js_dir>
+                    <js_output_dir>src/test/resources</js_output_dir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
