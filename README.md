@@ -15,7 +15,7 @@ Add the following to your maven build plugins.
         <configuration>
             <compilation_level>ADVANCED_OPTIMIZATIONS</compilation_level>
             <js_dir>src/test/process</js_dir>
-            <js_dir>src/test/resources</js_dir>
+            <js_output_dir>src/test/resources</js_output_dir>
             <version>1.0.0</version>
         </configuration>
     </plugin>
